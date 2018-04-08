@@ -1,0 +1,2 @@
+# textCategoryPrediction
+This is the start of a file that takes a list of text and categories and uses that data to predict new text. Right now there are only four different models that the code checks. It selects the model with the best testing accuracy and uses that on the real data. I wll add more models and eventually allow the user to choose what models they would like to use but, until then, the four models should suffice.
