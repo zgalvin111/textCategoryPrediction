@@ -548,7 +548,6 @@ def promptUserIfFileWasAlreadyWritten():
 # prediction to the csv file. If no, then prompt the user to enter the
 # correct prediction into the terminal and then write that to the csv file
 def promptUserForCorrectionOfPrediction(prediction, phrase, path, X):
-    print(type(X))
     print("Is this correct? " + prediction)
     input_line = raw_input()
     if input_line == "yes":
